@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  blog-django-app:
+    image: fabiocordobadev/personal:blog-django
+    container_name: blog-django-app
+    restart: always
+    ports:
+      - 8090:8000
